@@ -1,0 +1,42 @@
+modLoader="javafml"
+
+loaderVersion="[36,)"
+
+license="All rights reserved"
+
+issueTrackerURL="https://github.com/KingOfTheGamesYT/foundation-archives/issues"
+
+[[mods]]
+itemIcon="foundationarchives:lavander"
+
+modId="foundationarchives"
+
+version="1.0.0"
+
+displayName="Foundation Archives"
+
+displayURL="https://www.curseforge.com/minecraft/mc-mods/foundation-archives"
+
+logoFile="foundationarchives.png"
+
+credits="Thanks for this mod goes to The SCP Foundation for making these wonderful SCPs"
+
+authors=["RedRoseWarrior1 aka DevMaster1015"]
+
+description='''A once redacted chain of facilities is now in your hands. Build a new faculty building housing SCP's from the cute SCP-999 to the flesh-ripping SCP-096.'''
+
+# Base Forge
+[[dependencies.foundationarchives]]
+    modId="forge"
+    mandatory=true
+    versionRange="[36,)"
+    ordering="NONE"
+    side="BOTH"
+
+# Base Minecraft
+[[dependencies.foundationarchives]]
+    modId="minecraft"
+    mandatory=true
+versionRange="[1.16.5,1.17]"
+    ordering="NONE"
+    side="BOTH"
